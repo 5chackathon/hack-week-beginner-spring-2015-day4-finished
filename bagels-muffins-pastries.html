@@ -1,0 +1,66 @@
+<!DOCTYPE>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Coop Fountain</title>
+
+  <!-- Sets initial viewport load and disables zooming -->
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+  <!-- Make prototype chrome-less once bookmarked to phone's home screen -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <!-- Include Ratchet CSS -->
+  <link href="css/ratchet.min.css" rel="stylesheet">
+    
+   <!-- Include jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+  <!-- Include our script -->
+  <script src="js/coop.js"></script>    
+
+</head>
+
+<body>
+
+  <!-- Header bar (always should be first) -->
+  <header class="bar bar-nav">
+    <a href="index.html">
+      <button class="btn pull-left">
+        Menu
+      </button>
+    </a>
+    <h1 class="title">Coop Fountain</h1>
+  </header>
+
+  <!-- Wrap non-bar HTML in .content for scrolling -->
+  <div class="content">
+
+    <!-- List menu categories.-->
+    <ul class="table-view">
+      
+      <li class="table-view-cell">
+        <a href="bagel.html">
+        Bagel
+        <span class="badge badge-inverted">$1.40</span>
+        </a>
+      </li>
+      <li class="table-view-cell">Blueberry Scone
+        <span class="badge badge-inverted">$2.50</span>
+      </li>
+        <li class="table-view-cell">Cinnamon Roll
+      <span class="badge badge-inverted">$2.00</span>
+      </li>
+      <li class="table-view-cell">Danish
+        <span class="badge badge-inverted">$1.99</span>
+      </li>
+      <li class="table-view-cell">Muffin
+        <span class="badge badge-inverted">$1.99</span>
+      </li>
+    </ul>
+
+  </div>
+</body>
+</html>
